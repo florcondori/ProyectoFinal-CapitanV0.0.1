@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/dropdown.css">
+	<title>Capitan v.0.0.1</title>
+
+</head>
+<body>
+	<header>
+		<div class="dropdown">Hola <span id="nombre"></span>
+			<button onclick="myFunction()" class="dropbtn">&#9776;</button>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="coders.html">Coders</a>
+				<a href="despedida.html">Salir</a>
+			</div>
+		</div>
+	</header>
+	<div id="div_logo">
+		<img src="images/logo.png" alt="">
+	</div>
+	<div>
+		<h2>¿Que es Laboratoria?</h2>
+		<section>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi accusantium provident asperiores, dignissimos optio perferendis assumenda, quisquam, maxime tempore saepe, nobis distinctio sapiente deleniti expedita! Ipsam vitae sed minima, assumenda?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, delectus ratione, pariatur autem dolorem alias non officiis quis veniam voluptas. Aperiam deserunt, assumenda voluptate odio nostrum iusto quaerat voluptatem pariatur!
+		</section>
+	</div>
+	<div>
+		<h3>Temas</h3>
+		<section>
+			<button id="sprint1">Sprint 1</button>
+			<button id="sprint2">Sprint 2</button>
+			<button id="sprint3">Sprint 3</button>
+		</section>
+	</div>
+	<div id="contenido_sprint3">
+		<h2>Sprint 3:</h2>
+		<section>
+			No hay nada todavia :(
+		</section>
+	</div>
+	<div id="contenido_sprint2">
+		<h2>Sprint 2: Introduccion al Desarrollo Web y construccion de Paginas Web</h2>
+		<section>
+			<ol>
+				<li>Ciclo de vida del desarrollo Web y Arquitectura básica Cliente/Servidor / Configuarcion del Ambiente de Trabajo e Introduccion a Git</li>
+				<li>HTML y JavaScript en el navegador</li>
+				<li>Manejo de Comandos básicos de git en la terminal</li>
+				<li>Pruebas Unitariad</li>
+				<li>Git / Resolución de Conflictos / Branching Model</li>
+				<li>DOM</li>
+			</ol>
+		</section>
+		<hr>
+		<div id="contenido_quiz2">
+			<h3>QUIZ</h3>
+			<section id="preguntas_quiz2">
+				<h3>¿Cuál es el comando para iniciar un repositorio desde consola?</h3>
+				<input type="radio" name="pgt1_quiz2" class="respuesta_quiz2" value="a">git init .<br>
+				<input type="radio" name="pgt1_quiz2" class="respuesta_quiz2" value="b">git init<br>
+				<input type="radio" name="pgt1_quiz2" class="respuesta_quiz2" value="c">git init add
+
+				<h3>¿Cuál es la finalidad de hacer una prueba unitaria?</h3>
+				<input type="radio" name="pgt2_quiz2" class="respuesta_quiz2" value="a">Comprobar que el codigo funcione correctamente<br>
+				<input type="radio" name="pgt2_quiz2" class="respuesta_quiz2" value="b">Darle valores a los parámetros de dichas funciones<br>
+				<input type="radio" name="pgt2_quiz2" class="respuesta_quiz2" value="c">no tiene ningun fin
+
+				<h3>¿Que significa DOM?</h3>
+				<input type="radio" name="pgt3_quiz2" class="respuesta_quiz2" value="a">Dual Object Model<br>
+				<input type="radio" name="pgt3_quiz2" class="respuesta_quiz2" value="b">Document Object Model<br>
+				<input type="radio" name="pgt3_quiz2" class="respuesta_quiz2" value="c">Document Obselet Model<br>
+				<br><button id="boton2_enviar">Enviar</button>
+			</section>	
+		</div>
+	</div>
+	<div id="contenido_sprint1">
+		<h2>Sprint 1: Introduccion a JavaScript</h2>
+		<section>
+			<ol>
+				<li>Fundamentos de la Programación</li>
+				<li>Funciones</li>
+				<li>Arreglos</li>
+				<li>Objetos</li>					
+			</ol>
+		</section>
+		<hr>
+		<div id="contenido_quiz1">
+			<h3>QUIZ</h3>
+			<section id="preguntas_quiz1">
+				<h3>Existen dos tipos de Funciones</h3>
+				<input type="radio" name="pgt1_quiz1" class="respuesta_quiz1" value="a">Expresadas y Declaradas<br>
+				<input type="radio" name="pgt1_quiz1" class="respuesta_quiz1" value="b">Expresadas y Simplificadas<br>
+				<input type="radio" name="pgt1_quiz1" class="respuesta_quiz1" value="c">Unicas y Diferentes
+
+				<h3>Eliga una propiedad de los Arreglos</h3>
+				<input type="radio" name="pgt2_quiz1" class="respuesta_quiz1" value="a">pop<br>
+				<input type="radio" name="pgt2_quiz1" class="respuesta_quiz1" value="b">add<br>
+				<input type="radio" name="pgt2_quiz1" class="respuesta_quiz1" value="c">clear
+
+				<h3>Un objeto tiene _ _ _  _ _ y _  _ _ _ _</h3>
+				<input type="radio" name="pgt3_quiz1" class="respuesta_quiz1" value="a">elementos y direcciones<br>
+				<input type="radio" name="pgt3_quiz1" class="respuesta_quiz1" value="b">numeros y letras<br>
+				<input type="radio" name="pgt3_quiz1" class="respuesta_quiz1" value="c">propiedades y valores<br>
+				<br><button id="boton1_enviar">Enviar</button>
+			</section>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+	<script src="js/dropdown.js"></script>
+	<script type="text/javascript" src="js/validar.js"></script>
+</html>
